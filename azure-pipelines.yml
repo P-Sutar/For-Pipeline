@@ -3,4 +3,10 @@ trigger: none
 pool: PrashantsAgent
 
 steps:
-  - 
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      
+      Write-Host "Hello World"
