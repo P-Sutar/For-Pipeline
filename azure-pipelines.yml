@@ -1,0 +1,6 @@
+trigger: none
+
+pool: PrashantsAgent
+
+steps:
+  - 
